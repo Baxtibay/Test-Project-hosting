@@ -1,0 +1,127 @@
+/* ----==== MD ====---- */
+@media screen and (max-width: 991px) and (min-width:768px) {
+    .sidebar{
+        width: 250px;
+        /* background: yellow; */
+    }
+    .avatar-email{
+        /* border: 1px solid red; */
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 30px;
+
+    }
+    .main{
+        /* border: 1px solid red; */
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .add-user{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    /* ----==== Content ====---- */
+    .content{
+        /* border: 1px solid yellow; */
+        width: 68%;
+        margin: 0 auto;
+    }
+
+    /* ----==== Content Select Section ====---- */
+
+    /* ----==== Content Search Section ====---- */
+
+    .content-header{
+        /* border: 1px solid red; */
+        padding-bottom: 13px;
+    }
+
+    .content-search{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+
+    .search{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin: 4px 0;
+    }
+
+    /* ----==== Content Search Section End ====---- */
+    /* ----==== Content Main ====---- */
+    .content-main{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .users-item-email{
+        display: none;
+    }
+    /* ----==== User Section ====---- */
+
+    .users-email-item{
+        /* border: solid 1px red; */
+        display: none;
+    }
+
+    .alert{
+        /* border: 1px solid red; */
+         width: 270px;
+         height: 25px;
+        position: fixed;
+        top: 3%;
+        left: 53%;
+        transform: translate(-50%);
+        background: #34D57E;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        padding: 0 0;
+    }
+
+    .alert img{
+        /* border: 1px solid red; */
+        margin: 0;
+    }
+
+    .alert h4{
+        /* border: 1px solid greenyellow; */
+        font-family: var(--Poppins);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+
+        /* ----==== Delete alert ====---- */
+        .delete-alert{
+            /* border: 1px solid red; */
+            width: 530px;
+            height: 30px;
+            position: fixed;
+            top: 5%;
+            left: 64%;
+            transform: translate(-50%);
+            background: #fff;
+            box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 24px;
+            z-index: 1;
+        }
+        
+        /* ----==== Delete alert End ====---- */
+
+    /* ----==== User Section End ====---- */
+
+    /* ----==== Content Main End ====---- */
+
+}

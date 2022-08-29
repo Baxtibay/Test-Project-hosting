@@ -1,0 +1,36 @@
+/* ----==== Alert CSS Styles ====---- */
+
+    
+
+.alert{
+    /* border: 1px solid red; */
+    width: 312px;
+    height: 42px;
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #34D57E;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.alert img{
+    /* border: 1px solid red; */
+    margin: 0 5px;
+}
+
+.alert h4{
+    border: inherit;
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+/* ----==== Alert CSS Styles End ====---- */

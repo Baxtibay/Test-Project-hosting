@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alert Delete</title>
+    <link rel="stylesheet" href="../CssStyles/global.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <!-- ==== Sidebar  ==== -->
+        <div class="sidebar">
+            <!-- ==== Sidebar header  ==== -->
+            <div class="sidebar-header">
+                <div class="user-full-name">
+                    <div class="familyName">
+                        <h3>Kadirov</h3>
+                    </div>
+                    <div class="givenName">
+                        <h3>Inc</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-about">
+                    <div class="avatar-img">
+                        <img src="../images/avatar/image2.png" alt="avatar">
+                    </div>
+                    <div class="avatar-full-name">
+                        <div class="avatar-name">Ameliya</div>
+                        <div class="avatar-email">ameliya.cer@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== Sidebar header End  ==== -->
+            <!-- ==== Sidebar Main  ==== -->
+            <div class="sidebar-main">
+                <div class="user-add main">
+                    <div class="main-icon">
+                        <a href="#">
+                            <img src="../images/icon/user.svg" alt="user-icon">
+                        </a>
+                    </div>
+                    <div class="main-icon-text add-user">
+                        <a class="" href="#">Foydalanuvchi&nbsp;qo’shish</a>
+                    </div>
+                </div>
+                <div class="companiy main">
+                    <div class="main-icon">
+                        <a href="#">
+                            <img src="../images/icon/home.svg" alt="home-icon">
+                        </a>
+                    </div>
+                    <div class="main-icon-text companiyes">
+                        <a href="#">Kompaniyalar</a>
+                    </div>
+                </div>
+                <div class="customers main">
+                    <div class="main-icon">
+                        <a href="#">
+                            <img src="../images/icon/users.svg" alt="users-icon">
+                        </a>
+                    </div>
+                    <div id="customers" class="main-icon-text">
+                        <a href="#">Mijozlar</a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <!-- ==== Sidebar Main End  ==== -->
+            <!-- ==== Sidebar Footer  ==== -->
+            <div class="sidebar-footer">
+                <div class="settings main">
+                    <div class="main-icon">
+                        <a href="#">
+                            <img src="../images/icon/setting.svg" alt="settings-icon">
+                        </a>
+                    </div>
+                    <div id="setting" class="main-icon-text">
+                        <a href="#">Sozlamalar</a>
+                    </div>
+                </div>
+                <div class="menu main">
+                    <div class="main-icon">
+                        <button class="footer-btn">
+                            <img src="../images/icon/menu.svg" alt="menu-icon">
+                        </button>
+                    </div>
+                    <div id="footer-btn" class="main-icon-text">
+                        <button class="footer-btn m-b">Menyuni yopish</button>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== Sidebar Footer End  ==== -->
+        </div>
+        <!-- ==== Sidebar End  ==== -->
+
+        <!-- ==== Content ==== -->
+        <div class="content">
+            <!-- ==== Content Header ==== -->
+            <div class="content-header">
+                <div class="content-buttons">
+                    <a class="header-button user-add-button" href="./userAdd.html">Foydalanuvchi qo’shish</a>
+                </div>
+                <div class="select-companies">
+                    <label id="company" for="company">
+                        <span class="company">Kompaniya:</span>
+                        <select class="select" name="Company-select" id="company">
+                            <option value="">Hammasi</option>
+                            <option value="">United It Company</option>
+                            <option value="">ITech IT Group</option>
+                            <option value="">TUNE Consolting</option>
+                            <option value="">Humans.uz</option>
+                        </select>
+                        <i class='bx bxs-down-arrow arrow'></i>
+                    </label>
+                </div>
+                <form action="">
+                    <div class="content-search">
+                        <div class="user-search search">
+                            <button class="search-btn">
+                                <img class="search-icon" src="../images/icon/search.svg" alt="search">
+                            </button>
+                            <input class="search-input" type="text" placeholder="Foydalanuvchi qidirish">
+                        </div>
+                        <div class="email-search search">
+                            <button class="search-btn">
+                                <img class="search-icon" src="../images/icon/search.svg" alt="search">
+                            </button>
+                            <input class="search-input" type="text" placeholder="Email qidirish">
+                        </div>
+                        <div class="password-search search">
+                            <button class="search-btn">
+                                <img class="search-icon" src="../images/icon/search.svg" alt="search">
+                            </button>
+                            <input class="search-input" type="text" placeholder="Parol qidirish">
+                        </div>
+                        <div class="activity-search search">
+                            <button class="search-btn">
+                                <img class="search-icon" src="../images/icon/search.svg" alt="search">
+                            </button>
+                            <input class="search-input" type="text" placeholder="So’ngi faollikni qidirish">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- ==== Content Header End ==== -->
+
+            <!-- ==== Content Main ==== -->
+            <div class="content-main">
+                <ul class="main-fixed-list">
+                    <li class="users-item-name user-info">
+                        Foydalanuvchilar
+                    </li>
+                    <li class="users-item-email user-info">
+                        Email
+                    </li>
+                    <li class="users-item-password user-info">
+                        Parol
+                    </li>
+                    <li class="users-item-active user-info">
+                        So’ngi faollik
+                    </li>
+                    <li class="users-item-active user-info">
+                        Update
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/1.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Lindsey Stroud</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>lindsey.stroud@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>5 minut oldin</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/2.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>nicci.troiani@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>14 minut oldin</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/3.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>george.fields@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>6 minut oldin</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/4.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>rebecca.moore@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>Dec 14, 2018</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/5.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>jane.doe@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>Dec 12, 2018</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/6.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>dermot.jones@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>Dec 11, 2018</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/7.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>martin.merces@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>Dec 9, 2018</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/8.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>franz.ferdiand@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>Dec 6, 2018</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/9.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>john.smith@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>Nov 30, 2018</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section End ==== -->
+                <!-- ==== Users Section ==== -->
+                <ul class="users-section-list">
+                    <li class="user-about-item">
+                        <div class="user-section-img">
+                            <img class="user-avatar" src="../images/users/10.png" alt="user-img">
+                        </div>
+                        <div class="user-section-full-name">
+                            <p>Table text</p>
+                        </div>
+                    </li>
+                    <li class="users-email-item">
+                        <p>judith.williams@gmail.com</p>
+                    </li>
+                    <li class="users-password-item">
+                        <p>12345678</p>
+                    </li>
+                    <li class="users-active-item">
+                        <p>Nov 26, 2018</p>
+                    </li>
+                    <li class="users-update-item">
+                        <a href="./userUpdate.html">
+                            <img src="../images/icon/pencil.svg" alt="pencil-icon">
+                        </a>
+                        <a href="#">
+                            <img src="../images/icon/delete.svg" alt="delete-icon">
+                        </a>
+                    </li>
+                </ul>
+                <!-- ==== Users Section End ==== -->
+
+            </div>
+            <!-- ==== Content Main End ==== -->
+        </div>
+        <!-- ==== Content ==== -->
+    </div>
+    <div class="delete-alert">
+        <div class="question">
+            <p>Rostan ham o’chirilsinmi ?</p>
+        </div>
+        <div class="answer">
+            <a class="btn-yes" href="#">Ha</a>
+            <a class="btn-no" href="#">Yo’q</a>
+        </div>
+    </div>
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>

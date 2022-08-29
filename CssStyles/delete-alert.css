@@ -1,0 +1,59 @@
+/* ----==== Import Font Css ====---- */
+@import url('./fonts.css');
+@import url('./colors.css');
+
+.delete-alert{
+    /* border: 1px solid red; */
+    width: 513px;
+    height: 60px;
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fff;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+}
+
+.question{
+    /* border: green 1px solid; */
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+/* .answer{
+    border: 1px solid lightcoral;
+} */
+
+.answer a{
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.btn-yes{
+    /* border: 1px solid blue; */
+    background: #F7685B;
+    border-radius: 2px;
+    padding: 4px 36px;
+}
+
+.btn-no{
+    background: #34D57E;
+    border-radius: 2px;
+    padding: 4px 36px;
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 1200px) {
+    .sidebar{
+        width: 280px;
+        /* background: red; */
+    }
+    .avatar-email{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .main{
+        /* border: 1px solid red; */
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .content{
+        /* border: 1px solid red; */
+        width: 78%;
+        margin: 0 auto;
+    };
+}

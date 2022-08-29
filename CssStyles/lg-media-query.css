@@ -1,0 +1,71 @@
+/* ----==== LG ====---- */
+@media screen and (max-width: 1199px) and (min-width:992px) {
+    /* .container{
+        max-width: 1119px;
+    } */
+    
+    .sidebar{
+        width: 250px;
+        /* background: green; */
+    }
+    .avatar-email{
+        /* border: 1px solid red; */
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 30px;
+
+    }
+    .main{
+        /* border: 1px solid red; */
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .add-user{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+
+    /* ----==== Content ====---- */
+    .content{
+        border: 1px solid yellow;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .users-item-password{
+        display: none;
+    }
+
+    .users-password-item{
+        /* border: solid 1px red; */
+        display: none;
+    }
+
+    .alert{
+        /* border: 1px solid red; */
+        transform: translate(-20%);
+    }
+
+    /* ----==== Delete alert ====---- */
+    .delete-alert{
+        /* border: 1px solid red; */
+        width: 530px;
+        height: 30px;
+        position: fixed;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%);
+        background: #fff;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 24px;
+        z-index: 1;
+    }
+    
+    /* ----==== Delete alert End ====---- */
+}

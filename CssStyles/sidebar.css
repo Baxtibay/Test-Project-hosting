@@ -1,0 +1,153 @@
+/* ----==== Import CSS ====---- */
+@import url('./colors.css');
+
+
+.sidebar{
+    /* border: 1px solid red; */
+    width: 18%;
+    height: 100vh;
+    background: #FFF;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    transition: 0.5s ease-in-out;
+}
+
+/* .sidebar-header{
+    border: 1px solid red;
+    margin-left: 10px;
+} */
+
+
+/* ----==== Style Close Menu ====---- */
+
+.min-sidebar{
+    /* border: 1px solid red; */
+    width: 76px;
+    height: 100vh;
+    background: #FFF;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    transition: 0.5s ease-out;
+}
+
+.min-familiyName,
+.min-avatar-full-name,
+.min-main-icon-text,
+.min-companiyes,
+.min-customers,
+.min-setting,
+.min-footer-btn{
+    display: none;
+}
+
+/* ----==== Style Close Menu End ====---- */
+
+.user-full-name{
+    /* border: 1px solid red; */
+    display: flex;
+    /* margin: 17px 0; */
+    margin: 17px 7%;
+    color: var(--accentBlue);
+    font-family: var(--OpenSans);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    transition: 1s ease;    
+}
+
+.familyName{
+    font-weight: 600;
+    /* margin-left: 15px; */
+}
+
+.givenName{
+    margin: 0 5px;
+    /* margin-left: 10px; */
+
+}
+
+hr{
+    background: #EBEFF2;
+}
+
+/* ----==== User About Avatar ====---- */
+.user-about{
+    /* border: 1px solid red; */
+    display: flex;
+    /* margin: 24px 0; */
+    margin: 17px 7%;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-img img{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    margin-right: 10px;
+    /* margin-left: 12px; */
+}
+
+/* .avatar-full-name{
+    border: 1px solid red;
+} */
+
+.avatar-name{
+    font-family: var(--Poppins);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.avatar-email{
+    font-family: var(--Poppins);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: var(--tableGray);
+}
+
+/* ----==== Sidebar Main ====---- */
+
+
+
+.main{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 17px 1%;
+    align-items: center;
+    font-family: var(--Poppins);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--darkBlue);
+}
+
+.main-icon{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+
+/* ----==== Sidebar Footer ====---- */
+.sidebar-footer{
+    height: 58%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-btn{
+    border: none;
+    background: transparent;
+    color: var(--tableGray);
+    font-family: var(--Poppins);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    /* border-bottom: 2px solid black; */
+}
+.m-b{
+    margin-bottom: 4px;
+    min-width: 110px;
+}

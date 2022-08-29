@@ -1,0 +1,157 @@
+/* ----==== SM ====---- */
+@media screen and (max-width: 767px) and (min-width:566px) {
+    .container{
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-evenly;
+    }
+    .sidebar{
+        width: 250px;
+        /* background: blueviolet; */
+    }
+    .avatar-email{
+        /* border: 1px solid red; */
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 30px;
+
+    }
+    .main{
+        /* border: 1px solid red; */
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .add-user{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .content{
+        /* border: 1px solid yellow; */
+        max-width: 1200px!important;
+        margin: 0 auto;
+    }
+
+
+    .header-button{
+        /* border: 1px solid red; */
+        margin: 10px;
+        height: 35px;
+        padding: 5px;
+        border-radius: 4px;
+        color: #FFF;
+        background: var(--accentBlue);
+        font-family: var(--Poppins);
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+    }
+
+    /* ----==== Content ====---- */
+    .content{
+        /* border: 1px solid yellow; */
+        width: 60%;
+        margin: 0 28px;
+    }
+
+    /* ----==== Content Select Section ====---- */
+
+    /* ----==== Content Search Section ====---- */
+
+    .content-header{
+        /* border: 1px solid red; */
+        padding-bottom: 13px;
+    }
+
+    .content-search{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+
+    .search{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin: 4px 0;
+    }
+
+    /* ----==== Content Search Section End ====---- */
+    /* ----==== Content Main ====---- */
+    .content-main{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .users-item-email{
+        display: none;
+    }
+    /* ----==== User Section ====---- */
+
+    .users-email-item{
+        /* border: solid 1px red; */
+        display: none;
+    }
+
+    .users-item-password{
+        display: none;
+    }
+
+    .users-password-item{
+        /* border: solid 1px red; */
+        display: none;
+    }
+    
+    .users-item-active{
+        display: none;
+    }
+
+    .users-active-item{
+        /* border: solid 1px red; */
+        display: none;
+    }
+
+    .alert{
+        /* border: 1px solid red; */
+         width: 280px;
+         height: 25px;
+        position: fixed;
+        top: 7%;
+        left: 67%;
+        transform: translate(-50%);
+        background: #34D57E;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        padding: 0 0;
+    }
+
+    /* ----==== Delete alert ====---- */
+    .delete-alert{
+        /* border: 1px solid red; */
+        width: 330px;
+        height: 80px;
+        position: fixed;
+        top: 1%;
+        left: 68%;
+        transform: translate(-50%);
+        background: #fff;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 24px;
+        z-index: 1;
+    }
+    
+    /* ----==== Delete alert End ====---- */
+    /* ----==== User Section End ====---- */
+
+    /* ----==== Content Main End ====---- */
+
+}
