@@ -81,6 +81,10 @@
     cursor: pointer;
     z-index: 0;
 }
+
+.arrow-none{
+    opacity: 0;
+}
 /* ----==== Content Select Section ====---- */
 
 /* ----==== Content Search Section ====---- */

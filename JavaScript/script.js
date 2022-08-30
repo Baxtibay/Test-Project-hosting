@@ -45,3 +45,16 @@ menu.onclick = function(){
 //     }
     
 // }
+
+// ----==== For select script ====----
+
+let select = document.querySelector('.select');
+let arrow = document.querySelector('.arrow');
+
+select.onclick = function(r){
+    if(r.target){
+        arrow.classList.contains('arrow');
+        arrow.classList.remove('arrow');
+        arrow.classList.add('arrow-none');
+    }
+}
